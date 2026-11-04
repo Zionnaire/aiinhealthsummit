@@ -1,4 +1,28 @@
-# AI in Health Summit 2026 — Platform
+# AI in Health Summit 2026 — Event Platform 
+
+**The full event platform behind AHFID's AI in Health Summit 2026 (Abuja, 19–20 October 2026): public site, registration and payments, admin CMS, and a passwordless delegate portal.**
+
+🔗 **Live:** https://aiinhealthsummit.org
+
+<!-- ![Home](docs/home.png) ![Admin](docs/admin.png) ![Delegate portal](docs/portal.png) -->
+
+### Highlights
+
+- **Four surfaces in one MERN + TypeScript app:** a public site, an admin CMS, a delegate portal, and the API.
+- **Registration and payments:** attendee, exhibitor, sponsor, and volunteer registration, abstract submission, and **Paystack** payments with idempotent write endpoints.
+- **Role-based admin CMS:** four roles (super admin, content editor, registrations officer, viewer) covering registrations, content, payments, check-in, and analytics.
+- **Delegate portal:** magic-link (passwordless) sign-in, QR e-tickets, a delegate directory, and meeting requests.
+- **Integrations:** Microsoft Graph email, Web Push notifications, and Cloudinary media.
+- **Production practices:** CI (typecheck, test, and build on every PR), Vitest + Supertest tests, multi-stage Dockerfiles, Docker Compose, GA4 analytics, and SEO prerendering.
+
+**Stack:** React · Vite · TypeScript · Node.js · Express · MongoDB / Mongoose · Paystack · Microsoft Graph · Cloudinary · Web Push · Docker · GitHub Actions
+
+**Built by** Fowosere Ademola Abraham ([@Zionnaire](https://github.com/Zionnaire)) for [AHFID](https://github.com/AHFIDAILabs).
+
+---
+
+## Developer Guide
+
 
 The event platform for the AI in Health Summit 2026 (Abuja, Nigeria, 19–20 October
 2026), convened by AHFID. A MERN app with four surfaces:
